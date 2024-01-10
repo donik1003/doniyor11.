@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card__wrapper{
+    width: 1200px;
+    margin: auto;
+    border: 1px solid red;
+}
+
+.card__wrapper .card{
+    width: 30%;
+    border: 1px solid black;
+    text-align: center;
+    padding: 1rem;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.card__wrapper .card img{
+    width: 100%;
+
+}
+
+.card__wrapper .card__item{
+    background-color:white;
+    width: 80%;
+    margin: auto;
+    position: relative;
+    bottom: 50px;
+}
+.card__wrapper .card__item ul li{
+    display: inline-block;
+    margin: 0,7rem;
+}
